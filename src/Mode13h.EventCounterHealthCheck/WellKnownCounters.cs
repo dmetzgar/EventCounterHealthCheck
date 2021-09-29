@@ -180,7 +180,7 @@
             /// <summary>
             /// The number of requests that occur per update interval
             /// </summary>
-            public const string RequestRate = "request-rate";
+            public const string RequestRate = "requests-per-second";
 
             /// <summary>
             /// The total number of requests that have occurred for the life of the app
@@ -741,7 +741,7 @@
             public const string ActiveDbContexts = "active-db-contexts";
 
             /// <summary>
-            /// Compiler query cache hit rate percentage
+            /// Compiled query cache hit rate percentage
             /// </summary>
             public const string CompiledQueryCacheHitRate = "compiled-query-cache-hit-rate";
 
